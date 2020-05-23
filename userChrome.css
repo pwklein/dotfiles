@@ -1,0 +1,24 @@
+/* Frank edited file - you are good to go...*/
+
+/*
+ * Do not remove the @namespace line -- it's required for correct functioning
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+#threadTree treechildren::-moz-tree-cell-text(unread),
+treechildren::-moz-tree-cell-text(hasUnreadMessages-true) {
+
+	font-weight: bold !important;
+	font-style: regular !important;
+	color: #66ff99 !important;
+}
+#threadTree treechildren::-moz-tree-cell-text(selected) {
+
+	color: white !important;
+}
+
+
+/* 
+ * Make all the default font sizes 9 pt:
+ */
+* { font-size: 14pt !important; }
