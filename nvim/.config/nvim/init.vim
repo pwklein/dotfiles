@@ -10,14 +10,14 @@ set splitright
 set foldmethod=indent
 set foldlevel=99
 set encoding=utf-8
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+"au BufNewFile,BufRead *.py
+"    \ set tabstop=4
+"    \ set softtabstop=4
+"    \ set shiftwidth=4
+"    \ set textwidth=79
+"    \ set expandtab
+"    \ set autoindent
+"    \ set fileformat=unix
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'scrooloose/NERDTree'
@@ -36,7 +36,8 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 inoremap jj <ESC>
 inoremap <ESC> ~
-
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
 "let g:airline_theme='molokai'
 source $HOME/.config/nvim/themes/airline.vim
 

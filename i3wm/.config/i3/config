@@ -32,7 +32,7 @@ bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
 
 # browser
-bindsym $mod+Shift+Return exec firefox
+bindsym $mod+Shift+Return exec $BROWSER
 
 # kill focused window
 bindsym $mod+q kill
@@ -64,6 +64,10 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
+
+# toggle workspaces
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
