@@ -24,6 +24,9 @@ bindsym $mod+Return exec urxvt
 # suspend
 bindsym $mod+Shift+s exec ~/scripts/power_dmenu.sh
 
+# quickmarks 
+bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
+
 # zathura
 bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 

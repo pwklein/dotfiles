@@ -1,3 +1,21 @@
+" enable automatic reload after sourcing
+autocmd! bufwritepost init.vim source %
+
+filetype off
+filetype plugin indent on
+syntax on
+
+"80 character line and use Q for formating
+set nowrap
+set colorcolumn=80
+highlight ColorColumn ctermbg=238
+vmap Q gq
+nmap Q gqap
+
+set nobackup
+set nowritebackup
+set noswapfile
+
 let mapleader=" "
 set number relativenumber
 set tabstop=4 softtabstop=4
@@ -10,14 +28,19 @@ set splitright
 set foldmethod=indent
 set foldlevel=99
 set encoding=utf-8
-"au BufNewFile,BufRead *.py
-"    \ set tabstop=4
-"    \ set softtabstop=4
-"    \ set shiftwidth=4
-"    \ set textwidth=79
-"    \ set expandtab
-"    \ set autoindent
-"    \ set fileformat=unix
+
+" map sort function to a key
+vnoremap <Leader>s :sort<CR>
+
+let g:deoplete#enable_at_startup = 1
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+
+" disable autocompletion, cause we use deoplete for completion
+let g:jedi#completions_enabled = 0
+
+" open the go-to function in split, not another buffer
+let g:jedi#use_splits_not_buffers = "right"
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'scrooloose/NERDTree'
@@ -26,7 +49,12 @@ Plug 'jiangmiao/auto-pairs'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-fugitive'
+Plug 'zchee/deoplete-jedi'
+Plug 'scrooloose/nerdcommenter'
+Plug 'sbdchd/neoformat'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 "remap switching splits to Ctrl-x
