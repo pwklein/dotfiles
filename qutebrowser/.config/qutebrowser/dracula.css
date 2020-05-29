@@ -110,7 +110,7 @@ pre {
   border-color: #909396 !important;
 }
 .breadcrumb .repo-root.js-repo-root a {
-  color: #2f7bde !important;
+  color: #7c9ab4 !important;
 }
 .breadcrumb strong.final-path {
   color: #909396 !important;
@@ -300,13 +300,13 @@ a.filter-item:hover,
   color: #5e6263 !important;
 }
 .pl-c1 {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 .pl-e {
   color: #79b676 !important;
 }
 .pl-en {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 .pl-k {
   color: #598249 !important;
@@ -393,11 +393,11 @@ a.filter-item:hover,
 }
 .State--red {
   background-color: #bd3832 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .State--green {
   background-color: #598249 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .select-menu-filters {
   background-color: #323232 !important;
@@ -410,7 +410,7 @@ a.filter-item:hover,
 .select-menu-tabs a.selected,
 .select-menu-tab-nav.selected {
   background-color: #5e6263 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .signed-commit-header {
   background-color: #262626 !important;
@@ -420,7 +420,7 @@ a.filter-item:hover,
   color: #acd5fb !important;
 }
 .build-status-item .build-status-details {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 .capped-card h3 {
   background-color: #363636 !important;
@@ -637,7 +637,7 @@ qul.branches-list * {
   filter: opacity(62.5%);
 }
 .entry-title a {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 .Header {
   background-color: #323232 !important;
@@ -760,7 +760,7 @@ a.label {
 }
 .pagination a:hover {
   background-color: #5e6263 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .empty-cell,
 .diffbar {
@@ -1288,7 +1288,7 @@ a.storylink {
   font-weight: bold;
 }
 .sitestr {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 #hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
   background-color: #262626 !important;
@@ -1511,7 +1511,7 @@ hr {
 }
 .page-numbers.current {
   background-color: #e05f27 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .post-menu a {
   color: #797fd4 !important;
@@ -1534,7 +1534,7 @@ pre code {
   color: #acd5fb !important;
 }
 pre code .atn {
-  color: #2f7bde !important;
+  color: ##7c9ab4 !important;
 }
 pre code .atv {
   color: #15968d !important;
@@ -1672,7 +1672,7 @@ div.answered-accepted .mini-counts {
 }
 .post-tag {
   background-color: #5e6263 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
 .post-tag::before {
   background-color: #262626 !important;
@@ -1709,5 +1709,5 @@ a.comment-user.owner {
 }
 .answer-votes {
   background-color: #5e6263 !important;
-  color: #262626 !important;
+  color: ##7c9ab4 !important;
 }
