@@ -31,3 +31,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+set -o vi
+bind '"jj":"\e"'
