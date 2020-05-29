@@ -3,10 +3,10 @@
   border-color: #909396 !important;
 }
 a {
-  color: #ce4139 !important;
+  color: #acd5fb !important;
 }
 a:visited {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 body {
   background-color: #262626 !important;
@@ -72,7 +72,7 @@ pre {
   color: #909396 !important;
 }
 .about-info-box__heading {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .result.highlight {
   background-color: #2e2e2e !important;
@@ -81,7 +81,7 @@ pre {
   color: #909396 !important;
 }
 .result__snippet b {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .btn--top {
   background-color: #2e2e2e !important;
@@ -117,7 +117,7 @@ pre {
 }
 button.ajax-pagination-btn {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 button.ajax-pagination-btn:hover {
   background-color: #5e6263 !important;
@@ -132,11 +132,11 @@ button.ajax-pagination-btn:hover {
   color: #909396 !important;
 }
 .contrib-number {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .counter {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .diffstat-bar {
   color: #909396 !important;
@@ -179,16 +179,16 @@ a.filter-item,
 a.filter-item.selected,
 .filter-item.selected {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 a.filter-item:hover,
 .filter-item:hover {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .flash {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .gh-header {
   background-color: #262626 !important;
@@ -212,7 +212,7 @@ a.filter-item:hover,
 .new-user-avatar-cta {
   background-color: #2e2e2e !important;
   border-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .overall-summary {
   border-color: #5e6263 !important;
@@ -229,11 +229,11 @@ a.filter-item:hover,
 .social-count {
   background-color: #2e2e2e !important;
   border-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .scope-badge {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .stats-switcher-wrapper {
   background-color: #262626 !important;
@@ -248,7 +248,7 @@ a.filter-item:hover,
   color: #909396 !important;
 }
 .text-emphasized {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .text-diff-added {
   color: #598249 !important;
@@ -303,7 +303,7 @@ a.filter-item:hover,
   color: #2f7bde !important;
 }
 .pl-e {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 .pl-en {
   color: #2f7bde !important;
@@ -346,7 +346,7 @@ a.filter-item:hover,
 }
 .boxed-group > h3 {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .more-repos {
   background-color: #363636 !important;
@@ -368,7 +368,7 @@ a.filter-item:hover,
 .branch-action-state-dirty .branch-action-icon,
 .branch-action-state-unstable .branch-action-icon,
 .branch-action-state-unknown .branch-action-icon {
-  background-color: #b68800 !important;
+  background-color: #79b676 !important;
   color: #fff !important;
 }
 .text-shadow-light,
@@ -378,7 +378,7 @@ a.filter-item:hover,
   text-shadow: none !important;
 }
 .branch-a-b-count .meter {
-  background-color: #b68800 !important;
+  background-color: #79b676 !important;
 }
 .more-branches,
 .branch-group-heading,
@@ -401,11 +401,11 @@ a.filter-item:hover,
 }
 .select-menu-filters {
   background-color: #323232 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .js-select-menu-tab {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .select-menu-tabs a.selected,
 .select-menu-tab-nav.selected {
@@ -417,7 +417,7 @@ a.filter-item:hover,
 }
 .build-status-item {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .build-status-item .build-status-details {
   color: #2f7bde !important;
@@ -426,14 +426,14 @@ a.filter-item:hover,
   background-color: #363636 !important;
 }
 .capped-card h3 a {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .capped-card-content {
   background-color: #262626 !important;
 }
 .capped-list th {
   background-color: #323232 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .capped-list tr:nth-child(2n) {
   background-color: #2e2e2e !important;
@@ -468,7 +468,7 @@ a.filter-item:hover,
 .commit-ref,
 code.commit-sha {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .commit-ref .user,
 code.commit-sha .user {
@@ -483,7 +483,7 @@ code.commit-sha .user {
 .commit-branches * *,
 .commit-tease *,
 .commit-title * {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .commit-tease-contributors {
   background-color: #2e2e2e !important;
@@ -492,13 +492,13 @@ div.commit-branches,
 div.commit.full-commit p.commit-title,
 qul.branches-list {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 div.commit-branches *,
 div.commit.full-commit p.commit-title *,
 qul.branches-list * {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .commit-meta {
   background-color: #2e2e2e !important;
@@ -533,7 +533,7 @@ qul.branches-list * {
   background-color: #598249 !important;
 }
 .completeness-indicator-problem {
-  background-color: #b68800 !important;
+  background-color: #79b676 !important;
   color: #fff !important;
 }
 .copyable-terminal {
@@ -541,7 +541,7 @@ qul.branches-list * {
 }
 .blankslate {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .comment-form-head.tabnav {
   background-color: #262626 !important;
@@ -551,19 +551,19 @@ qul.branches-list * {
 }
 .discussion-item-closed .discussion-item-icon {
   background-color: #bd3832 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .discussion-item-icon {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .discussion-item-icon.octicon {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .discussion-item-entity,
 .discussion-item .renamed-was,
 .discussion-item .renamed-is {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .discussion-timeline:before {
   background-color: #909396 !important;
@@ -589,7 +589,7 @@ qul.branches-list * {
   border-color: #262626 !important;
 }
 .donut-chart > .pending {
-  fill: #b68800 !important;
+  fill: #79b676 !important;
 }
 .dropdown-divider {
   background-color: #909396 !important;
@@ -599,11 +599,11 @@ qul.branches-list * {
 }
 .dropdown-item:hover {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .dropdown-menu {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
   border-color: #909396 !important;
 }
 .files * {
@@ -624,7 +624,7 @@ qul.branches-list * {
 .btn {
   background-image: linear-gradient(to bottom, #5e6263, #2e2e2e) !important;
   border-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .btn:hover {
   background-color: #323232 !important;
@@ -644,10 +644,10 @@ qul.branches-list * {
   border-bottom-color: #5e6263 !important;
 }
 .Header a {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .lang {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .reponav-item,
 .pagehead-tabs-item {
@@ -669,10 +669,10 @@ qul.branches-list * {
 }
 .Box-row--focus-gray.navigation-focus {
   background-color: #323232 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .js-directory-link {
-  color: #ce4139 !important;
+  color: #acd5fb !important;
 }
 .js-site-search-form input,
 .js-chromeless-input-container {
@@ -690,7 +690,7 @@ a.label {
   background-color: #262626 !important;
 }
 .octicon-repo {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .type-icon-state-closed {
   color: rgba(255,66,56,0.65) !important;
@@ -711,10 +711,10 @@ a.label {
   color: #598249 !important;
 }
 .octicon-primitive-dot {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 .octicon-clippy {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .octicon-diff {
   color: #fff !important;
@@ -726,21 +726,21 @@ a.label {
   background-color: #2e2e2e !important;
   border-color: #909396 !important;
   border-bottom: 0px !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .org-name {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .pagehead.orghead {
   background-color: #2e2e2e !important;
 }
 .outline-box-highlighted {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .pagination .current {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .pagination .disabled {
   background-color: #2e2e2e !important;
@@ -859,7 +859,7 @@ ul.comparison-list {
 .select-menu-header,
 .select-menu-header * {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
   text-shadow: none !important;
 }
 .select-menu-item {
@@ -870,7 +870,7 @@ ul.comparison-list {
 .select-menu-item.navigation-focus.select-menu-action,
 .select-menu-item-text.navigation-focus {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .repository-sidebar {
   background-color: #262626 !important;
@@ -894,7 +894,7 @@ ul.comparison-list {
 .sunken-menu-item.selected {
   background-color: #262626 !important;
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .sunken-menu-item.selected:after {
   background-color: #e05f27 !important;
@@ -903,7 +903,7 @@ ul.comparison-list {
   background-image: linear-gradient(to right, #2e2e2e 70%, #262626 100%) !important;
 }
 .state {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .state-closed {
   background-color: #bd3832 !important;
@@ -942,7 +942,7 @@ a.tabnav-tab.selected,
   background-color: #262626 !important;
   background-image: linear-gradient(#2e2e2e, #262626) !important;
   border-color: #909396 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .table-list tr,
 .table-list li {
@@ -956,10 +956,10 @@ a.tabnav-tab.selected,
   background-color: #2e2e2e !important;
 }
 .text-pending {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 .text-pending .octicon-primitive-dot {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 .text-red {
   color: #bd3832 !important;
@@ -993,7 +993,7 @@ a.tabnav-tab.selected,
   fill: #598249;
 }
 .summary-stats li .num {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .viz {
   background-color: #323232 !important;
@@ -1100,7 +1100,7 @@ tr.Even {
 }
 .Cat1HL {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .Cat2HL {
   background-color: #363636 !important;
@@ -1151,7 +1151,7 @@ body * {
 #mw-head,
 #mw-panel {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #mw-head div.portal,
 #mw-panel div.portal {
@@ -1199,17 +1199,17 @@ div#simpleSearch #searchInput {
 .toclevel-1 {
   background-color: #2e2e2e !important;
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .catlinks {
   background-color: #2e2e2e !important;
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .navbox {
   background-color: #2e2e2e !important;
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .navbox .th,
 .navbox .navbox-title {
@@ -1231,12 +1231,12 @@ h4,
 h5,
 h6 {
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 code {
   background-color: #363636 !important;
   border-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 div.thumbinner {
   background-color: #2e2e2e !important;
@@ -1284,7 +1284,7 @@ table {
   color: #5e6263 !important;
 }
 a.storylink {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
   font-weight: bold;
 }
 .sitestr {
@@ -1294,13 +1294,13 @@ a.storylink {
   background-color: #262626 !important;
 }
 #hnmain .comhead {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #hnmain .c00 {
   color: #909396 !important;
 }
 #hnmain a.hnuser {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 #hnmain span.age a {
   color: #5e6263 !important;
@@ -1333,7 +1333,7 @@ div#page div#header a {
   background-color: #2e2e2e !important;
 }
 .post h2 a {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .post div.entry {
   background-color: #262626 !important;
@@ -1346,7 +1346,7 @@ div#page div#header a {
   background-color: #2e2e2e !important;
   border-color: #5e6263 !important;
   box-shadow: none !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
   text-shadow: 0px 1px 0px #000 !important;
 }
 .post pre.mode-line {
@@ -1396,7 +1396,7 @@ body.comment {
 }
 .listing-chooser .intro {
   background-color: #5e6263 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .listing-chooser .grippy {
   background-color: #262626 !important;
@@ -1415,7 +1415,7 @@ body.comment {
   color: #909396 !important;
 }
 .listing-chooser li a .description {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .titlebox {
   background-color: #2e2e2e !important;
@@ -1432,7 +1432,7 @@ body.comment {
 }
 .sidebox .spacer {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .tabmenu li a {
   background-color: #2e2e2e !important;
@@ -1447,10 +1447,10 @@ body.comment {
   border-color: #909396 !important;
 }
 a {
-  color: #ce4139 !important;
+  color: #acd5fb !important;
 }
 a:visited {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 body {
   background-color: #262626 !important;
@@ -1531,7 +1531,7 @@ hr {
 }
 pre code {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 pre code .atn {
   color: #2f7bde !important;
@@ -1559,21 +1559,21 @@ pre code .tag {
   color: #598249 !important;
 }
 pre code .typ {
-  color: #b68800 !important;
+  color: #79b676 !important;
 }
 #footer {
   background-color: #323232 !important;
   color: #909396 !important;
 }
 #footer #footer-sites th {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .top-footer-links a {
   color: #598249 !important;
 }
 .so-header {
   background-color: #363636 !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .so-header a {
   color: #598249 !important;
@@ -1593,16 +1593,16 @@ pre code .typ {
   background-color: #2e2e2e !important;
 }
 .topbar-dialog .header a {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .topbar-dialog .site-link {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #header {
   background-color: #363636 !important;
 }
 #question-header .question-hyperlink {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #hlogo a {
   filter: opacity(75%);
@@ -1631,40 +1631,40 @@ div.answered-accepted .mini-counts {
   color: #15968d !important;
 }
 #hot-network-questions h4 a.js-gps-track {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #sidebar .community-bulletin .bulletin-item-content a {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #sidebar .module.community-bulletin {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #sidebar .question-hyperlink {
   color: #15968d !important;
 }
 .newuser {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .label-key {
   color: #909396 !important;
 }
 .label-key b {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #h-chat-link {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .ad502-room {
   background-color: #2e2e2e !important;
   box-shadow: #5e6263 0px 1px 3px;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #tabs a {
   background-color: transparent !important;
   background-image: linear-gradient(to bottom, #262626, #2e2e2e);
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 #tabs a.youarehere {
   background-image: linear-gradient(to bottom, #e05f27, #262626);
@@ -1683,7 +1683,7 @@ a.comment-user.owner {
 }
 .post-signature {
   background-color: #2e2e2e !important;
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .post-signature a {
   color: #15968d !important;
@@ -1692,7 +1692,7 @@ a.comment-user.owner {
   color: #598249 !important;
 }
 .post-signature span.relativetime {
-  color: #a6aaab !important;
+  color: #acd5fb !important;
 }
 .vote {
   background-color: #2e2e2e !important;
