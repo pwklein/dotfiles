@@ -36,7 +36,6 @@ let g:highlightedyank_highlight_duration = 350
 
 let g:python_host_prog = expand('/usr/bin/python2')
 let g:python3_host_prog = expand('/usr/bin/python3')
-
 " map sort function to a key
 vnoremap <Leader>s :sort<CR>
 
@@ -52,6 +51,7 @@ let g:jedi#use_splits_not_buffers = "right"
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'machakann/vim-highlightedyank'
+Plug 'chrisbra/Colorizer'
 Plug 'cjrh/vim-conda'
 Plug 'scrooloose/NERDTree'
 Plug 'sheerun/vim-polyglot'
