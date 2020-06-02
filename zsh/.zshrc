@@ -52,7 +52,7 @@ SPACESHIP_VI_MODE_COLOR=green
 SPACESHIP_VI_MODE_INSERT=''
 SPACESHIP_VI_MODE_NORMAL='[N]'
 
-
+SPACESHIP_EXEC_TIME_SHOW=false
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=false
 SPACESHIP_CHAR_SYMBOL=❯
@@ -86,3 +86,5 @@ SPACESHIP_JOBS_SHOW=false
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

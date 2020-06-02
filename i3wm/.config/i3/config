@@ -19,6 +19,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+bindsym $mod+Shift+t exec --no-startup-id urxvt --class=floating_term
+for_window [class="floating_term"] floating enable
+
 # start a terminal
 bindsym $mod+Return exec $TERMINAL
 # suspend
@@ -33,6 +36,9 @@ bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 # jupyter
 bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
+
+bindsym $mod+g exec urxvt -e ranger
+
 
 # browser
 bindsym $mod+Shift+Return exec $BROWSER
@@ -49,6 +55,10 @@ bindsym $mod+d exec dmenu_run\
     -i -p "Run application" \
 -c -l 10
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+hide_edge_borders smart
+
+bindsym $mod+b bar mode toggle
 
 # change focus
 bindsym $mod+h focus left
