@@ -117,7 +117,7 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 # List of user stylesheet filenames to use.
 # Type: List of File, or File
 c.content.user_stylesheets = [
-    'dracula.css',
+    'apprentice.css',
     'custom_dark.css'
 ]
 # Number of commands to save in the command history. 0: no history / -1:
@@ -478,8 +478,7 @@ c.colors.statusbar.command.fg = nord['base3']
 
 ## Background color of the statusbar in private browsing + command mode.
 ## Type: QssColor
-c.colors.statusbar.command.private.bg = nord['base01']
-
+c.colors.statusbar.command.private.bg = nord['base03']
 ## Foreground color of the statusbar in private browsing + command mode.
 ## Type: QssColor
 c.colors.statusbar.command.private.fg = nord['base3']
@@ -606,4 +605,7 @@ c.colors.tabs.selected.odd.fg = nord['base3']
 ## Background color for webpages if unset (or empty to use the theme's
 ## color)
 ## Type: QtColor
-# c.colors.webpage.bg = 'white'
+c.colors.webpage.bg = '#2e2e2e'
+
+c.content.private_browsing = True
+

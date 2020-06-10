@@ -1,13 +1,13 @@
-/* Complete https://github.com/alphapapa/solarized-everything-css/blob/master/css/solarized-all-sites-dark.css */
+/*[> Complete https://github.com/alphapapa/solarized-everything-css/blob/master/css/solarized-all-sites-dark.css <]*/
 
-/* base blocks */
+[> base blocks <]
 header,
 div,
 li,
 p,
 span,
 td,
-/* content blocks */
+[> content blocks <]
 article,
 aside,
 details,
@@ -28,13 +28,13 @@ summary,
   color: #839496 !important;
 }
 
-/* specific content (like quote) */
+[> specific content (like quote) <]
 strong {
   background-color: #2e2e2e!important;
   color: #839496 !important;
 }
 
-/* title */
+[> title <]
 h1,
 h2,
 h3,
@@ -44,7 +44,7 @@ h6 {
   background-color: #2e2e2e !important;
 }
 
-/* navigation */
+[> navigation <]
 nav,
 #mainbar,
 #archnavbar,
@@ -52,11 +52,11 @@ nav,
   background-color: #2e2e2e!important;
 }
 
-/* TODO not good, comment in git  */
+[> TODO not good, comment in git  <]
 .blob-code span {
   background-color: #2e2e2e !important;
 }
-/* code in flask doc */
+[> code in flask doc <]
 .highlight span {
   background-color: #2e2e2e!important;
 }
