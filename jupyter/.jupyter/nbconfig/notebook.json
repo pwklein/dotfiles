@@ -1,0 +1,15 @@
+{
+  "load_extensions": {
+    "toggle_all_line_numbers/main": true,
+    "collapsible_headings/main": true,
+    "latex_envs/latex_envs": false,
+    "zenmode/main": true,
+    "code_prettify/autopep8": true,
+    "vim_binding/vim_binding": true
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  }
+}
