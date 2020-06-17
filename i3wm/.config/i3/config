@@ -30,6 +30,9 @@ bindsym $mod+Shift+s exec ~/scripts/power_dmenu.sh
 # quickmarks 
 bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
 
+# ssh
+bindsym $mod+s exec urxvt -e ~/scripts/ssh_dmenu.sh
+
 # zathura
 bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 
@@ -37,6 +40,7 @@ bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
 
+# ranger
 bindsym $mod+g exec urxvt -e ranger
 
 
@@ -98,7 +102,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+bindsym $mod+t layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
