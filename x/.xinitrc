@@ -10,5 +10,4 @@ if [[ "$(echo $HOSTNAME)" = "arch-mac" ]]; then
 	export WINIT_X11_SCALE_FACTOR=1.5
 fi
 picom -b
-exec i3
-
+exec dwm
