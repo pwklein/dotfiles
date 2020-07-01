@@ -12,8 +12,8 @@ syntax on
 set nowrap
 set colorcolumn=80
 highlight ColorColumn ctermbg=238
-vmap Q gq
-nmap Q gqap
+" vmap Q gq
+" nmap Q gqap
 
 set nobackup
 set nowritebackup
