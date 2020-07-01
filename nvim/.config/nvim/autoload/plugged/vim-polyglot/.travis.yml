@@ -1,11 +1,7 @@
-language: ruby
-rvm:
-  - 2.6
-sudo: false
-addons:
-  apt:
-    packages:
-      - vim-gtk
+language: vim
 before_script:
-  - "./build"
-script: xvfb-run bundle exec rspec --format=documentation
+  - sudo add-apt-repository ppa:jonathonf/vim -y
+  - sudo apt-get update -q
+  - sudo apt-get install -y vim
+  - vim --version
+script: ./test

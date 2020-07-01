@@ -10,13 +10,13 @@ A collection of language packs for Vim.
 > One to rule them all, one to find them, one to bring them all and in the darkness bind them.
 
 - It **won't affect your startup time**, as scripts are loaded only on demand\*.
-- It **installs and updates 120+ times faster** than the <!--Package Count-->149<!--/Package Count--> packages it consists of.
+- It **installs and updates 120+ times faster** than the <!--Package Count-->152<!--/Package Count--> packages it consists of.
 - Solid syntax and indentation support (other features skipped). Only the best language packs.
 - All unnecessary files are ignored (like enormous documentation from php support).
 - No support for esoteric languages, only most popular ones (modern too, like `slim`).
 - Each build is tested by automated vimrunner script on CI. See `spec` directory.
 
-\*To be completely honest, concatenated `ftdetect` script takes up to `17ms` to load.
+\*To be completely honest, optimized `ftdetect` script takes up to `19ms` to load.
 
 ## Installation
 
@@ -81,7 +81,7 @@ If you need full functionality of any plugin, please use it directly with your p
 - [fish](https://github.com/georgewitteman/vim-fish) (syntax, indent, compiler, autoload, ftplugin)
 - [flatbuffers](https://github.com/dcharbon/vim-flatbuffers) (syntax)
 - [fsharp](https://github.com/ionide/Ionide-vim) (syntax, indent)
-- [gdscript](https://github.com/calviken/vim-gdscript3) (syntax, indent, ftplugin)
+- [gdscript](https://github.com/calviken/vim-gdscript3) (syntax, indent)
 - [git](https://github.com/tpope/vim-git) (syntax, indent, ftplugin)
 - [glsl](https://github.com/tikhomirov/vim-glsl) (syntax, indent)
 - [gmpl](https://github.com/maelvalais/gmpl.vim) (syntax)
@@ -99,6 +99,7 @@ If you need full functionality of any plugin, please use it directly with your p
 - [hive](https://github.com/zebradil/hive.vim) (syntax, ftplugin)
 - [html5](https://github.com/othree/html5.vim) (syntax, indent, autoload, ftplugin)
 - [i3](https://github.com/mboughaba/i3config.vim) (syntax, ftplugin)
+- [icalenadr](https://github.com/chutzpah/icalendar.vim) (syntax)
 - [idris](https://github.com/idris-hackers/idris-vim) (syntax, indent, ftplugin)
 - [ion](https://github.com/vmchale/ion-vim) (syntax, ftplugin)
 - [javascript](https://github.com/pangloss/vim-javascript) (syntax, indent, compiler, ftplugin, extras)
@@ -159,6 +160,7 @@ If you need full functionality of any plugin, please use it directly with your p
 - [sbt](https://github.com/derekwyatt/vim-sbt) (syntax)
 - [scala](https://github.com/derekwyatt/vim-scala) (syntax, indent, compiler, ftplugin, ctags)
 - [scss](https://github.com/cakebaker/scss-syntax.vim) (syntax, indent, ftplugin)
+- [sh](https://github.com/arzg/vim-sh) (syntax)
 - [slim](https://github.com/slim-template/vim-slim) (syntax, indent, ftplugin)
 - [slime](https://github.com/slime-lang/vim-slime-syntax) (syntax, indent)
 - [smt2](https://github.com/bohlender/vim-smt2) (syntax, autoload, ftplugin)
@@ -179,6 +181,7 @@ If you need full functionality of any plugin, please use it directly with your p
 - [tptp](https://github.com/c-cube/vim-tptp) (syntax)
 - [twig](https://github.com/lumiliet/vim-twig) (syntax, indent, ftplugin)
 - [typescript](https://github.com/HerringtonDarkholme/yats.vim) (syntax, indent, compiler, ftplugin, ctags)
+- [unison](https://github.com/unisonweb/unison#trunk) (syntax)
 - [v](https://github.com/ollykel/v-vim) (syntax, indent, ftplugin)
 - [vala](https://github.com/arrufat/vala.vim) (syntax, indent, ftplugin)
 - [vbnet](https://github.com/vim-scripts/vbnet.vim) (syntax)
@@ -192,7 +195,7 @@ If you need full functionality of any plugin, please use it directly with your p
 - [yaml](https://github.com/stephpy/vim-yaml) (syntax, ftplugin)
 - [yard](https://github.com/sheerun/vim-yardoc) (syntax)
 - [zephir](https://github.com/xwsoul/vim-zephir) (syntax)
-- [zig](https://github.com/ziglang/zig.vim) (syntax, autoload, ftplugin)
+- [zig](https://github.com/ziglang/zig.vim) (syntax, indent, autoload, ftplugin)
 - [zinit](https://github.com/zinit-zsh/zplugin-vim-syntax) (syntax)
 <!--/Language Packs-->
 

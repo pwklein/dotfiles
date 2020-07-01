@@ -150,12 +150,12 @@ function! airline#extensions#load()
   call airline#extensions#quickfix#init(s:ext)
   call add(s:loaded_ext, 'quickfix')
 
-  if get(g:, 'loaded_unite', 0)
+  if get(g:, 'loaded_unite', 0) && get(g:, 'airline#extensions#unite#enabled', 1)
     call airline#extensions#unite#init(s:ext)
     call add(s:loaded_ext, 'unite')
   endif
 
-  if get(g:, 'loaded_denite', 0)
+  if get(g:, 'loaded_denite', 0) && get(g:, 'airline#extensions#denite#enabled', 1)
     call airline#extensions#denite#init(s:ext)
     call add(s:loaded_ext, 'denite')
   endif
@@ -168,6 +168,12 @@ function! airline#extensions#load()
   if exists(':NetrwSettings')
     call airline#extensions#netrw#init(s:ext)
     call add(s:loaded_ext, 'netrw')
+  endif
+
+  " fzf buffers are also terminal buffers, so this must be above term.
+  if exists(':FZF') && get(g:, 'airline#extensions#fzf#enabled', 1)
+    call airline#extensions#fzf#init(s:ext)
+    call add(s:loaded_ext, 'fzf')
   endif
 
   if (has("terminal") || has('nvim')) &&
@@ -422,6 +428,11 @@ function! airline#extensions#load()
     call add(s:loaded_ext, 'cursormode')
   endif
 
+  if get(g:, 'airline#extensions#searchcount#enabled', 1) && exists('*searchcount')
+    call airline#extensions#searchcount#init(s:ext)
+    call add(s:loaded_ext, 'searchcount')
+  endif
+
   if !get(g:, 'airline#extensions#disable_rtp_load', 0)
     " load all other extensions, which are not part of the default distribution.
     " (autoload/airline/extensions/*.vim outside of our s:script_path).
@@ -444,6 +455,12 @@ function! airline#extensions#load()
       endif
     endfor
   endif
+
+  if exists(':Dirvish') && get(g:, 'airline#extensions#dirvish#enabled', 1)
+    call airline#extensions#dirvish#init(s:ext)
+    call add(s:loaded_ext, 'dirvish')
+  endif
+
 endfunction
 
 function! airline#extensions#get_loaded_extensions()

@@ -173,7 +173,7 @@ PACKS="
   fish:georgewitteman/vim-fish
   flatbuffers:dcharbon/vim-flatbuffers
   fsharp:ionide/Ionide-vim:_BASIC
-  gdscript:calviken/vim-gdscript3
+  gdscript:calviken/vim-gdscript3:_SYNTAX
   git:tpope/vim-git
   glsl:tikhomirov/vim-glsl:_NOAFTER
   gmpl:maelvalais/gmpl.vim
@@ -191,6 +191,7 @@ PACKS="
   hive:zebradil/hive.vim
   html5:othree/html5.vim
   i3:mboughaba/i3config.vim
+  icalenadr:chutzpah/icalendar.vim
   idris:idris-hackers/idris-vim
   ion:vmchale/ion-vim
   javascript:pangloss/vim-javascript:_JAVASCRIPT
@@ -251,6 +252,7 @@ PACKS="
   sbt:derekwyatt/vim-sbt
   scala:derekwyatt/vim-scala
   scss:cakebaker/scss-syntax.vim
+  sh:arzg/vim-sh
   slim:slim-template/vim-slim
   slime:slime-lang/vim-slime-syntax
   smt2:bohlender/vim-smt2
@@ -271,6 +273,7 @@ PACKS="
   tptp:c-cube/vim-tptp
   twig:lumiliet/vim-twig
   typescript:HerringtonDarkholme/yats.vim
+  unison:unisonweb/unison#trunk:_ALL:/editor-support/vim/
   v:ollykel/v-vim
   vala:arrufat/vala.vim
   vbnet:vim-scripts/vbnet.vim

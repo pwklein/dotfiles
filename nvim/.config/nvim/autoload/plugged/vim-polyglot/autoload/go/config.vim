@@ -170,8 +170,8 @@ function! go#config#EchoCommandInfo() abort
 endfunction
 
 function! go#config#DocUrl() abort
-  let godoc_url = get(g:, 'go_doc_url', 'https://godoc.org')
-  if godoc_url isnot 'https://godoc.org'
+  let godoc_url = get(g:, 'go_doc_url', 'https://pkg.go.dev')
+  if godoc_url isnot 'https://pkg.go.dev'
     " strip last '/' character if available
     let last_char = strlen(godoc_url) - 1
     if godoc_url[last_char] == '/'
@@ -266,23 +266,11 @@ function! go#config#MetalinterCommand() abort
 endfunction
 
 function! go#config#MetalinterAutosaveEnabled() abort
-  let l:default_enabled = ["vet", "golint"]
-
-  if go#config#MetalinterCommand() == "golangci-lint"
-    let l:default_enabled = ["govet", "golint"]
-  endif
-
-  return get(g:, "go_metalinter_autosave_enabled", default_enabled)
+  return get(g:, "go_metalinter_autosave_enabled", ["govet", "golint"])
 endfunction
 
 function! go#config#MetalinterEnabled() abort
-  let l:default_enabled = ["vet", "golint", "errcheck"]
-
-  if go#config#MetalinterCommand() == "golangci-lint"
-    let l:default_enabled = ["govet", "golint"]
-  endif
-
-  return get(g:, "go_metalinter_enabled", default_enabled)
+  return get(g:, "go_metalinter_enabled", ["vet", "golint", "errcheck"])
 endfunction
 
 function! go#config#GolintBin() abort
@@ -383,7 +371,7 @@ function! go#config#RenameCommand() abort
 endfunction
 
 function! go#config#GorenameBin() abort
-  return get(g:, "go_gorename_bin", "gorename")
+  return get(g:, "go_gorename_bin", "gopls")
 endfunction
 
 function! go#config#GorenamePrefill() abort
@@ -565,7 +553,7 @@ function! go#config#DiagnosticsEnabled() abort
 endfunction
 
 function! go#config#GoplsOptions() abort
-  return get(g:, 'go_gopls_options', [])
+  return get(g:, 'go_gopls_options', ['-remote=auto'])
 endfunction
 
 " Set the default value. A value of "1" is a shortcut for this, for

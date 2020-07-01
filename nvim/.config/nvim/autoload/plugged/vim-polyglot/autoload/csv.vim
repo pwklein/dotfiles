@@ -267,7 +267,7 @@ fu! csv#GetPat(colnr, maxcolnr, pat, allowmore) "{{{3
             " Allow space in front of the pattern, so that it works correctly
             " even if :Arrange Col has been used #100
             return '^' . csv#GetColPat(a:colnr - 1,0) .
-                \ '\s*\zs' . a:pat . '\ze' . (a:allowmore ? '' : '$')
+                \ '.*\zs' . a:pat . '\ze' . (a:allowmore ? '' : '$')
         else
             return '\%' . b:csv_fixed_width_cols[-1] .
                 \ 'c\zs' . a:pat . '\ze' . (a:allowmore ? '' : '$')
@@ -504,7 +504,7 @@ fu! csv#WColumn(...) "{{{3
     " Return on which column the cursor is
     let _cur = getpos('.')
     if !exists("b:csv_fixed_width_cols")
-        if line('.') > 1 && mode('') != 'n'
+        if line('.') > 1 && mode('') != 'n' && empty(getline('.')[0:col('.')-1])
             " in insert mode, get line from above, just in case the current
             " line is empty
             let line = getline(line('.')-1)
@@ -1507,10 +1507,10 @@ fu! csv#AvgColumn(list) "{{{3
         endfor
         if has("float")
             let b:csv_result = printf("%.2f", sum/cnt)
-            return b:csv_result
+            return str2float(b:csv_result)
         else
             let b:csv_result = printf("%s", sum/cnt)
-            return sum/cnt
+            return b:csv_result + 0
         endif
     endif
 endfu
@@ -1543,7 +1543,7 @@ fu! csv#VarianceColumn(list, is_population) "{{{3
             let cnt = cnt-1
         endif
         if has("float")
-            let b:csv_result = printf("%.2f", sum/cnt)
+            let b:csv_result = printf("%." . get(b:, 'csv_accuracy', get(g:, 'csv_accuracy', 2)) . "f", sum/cnt)
             return b:csv_result
         else
             let b:csv_result = printf("%s", sum/cnt)
@@ -2263,7 +2263,7 @@ fu! csv#CommandDefinitions() "{{{3
         \ ':echo csv#EvalColumn(<q-args>, "csv#SmplStdDevColumn", <line1>,<line2>)',
         \ '-nargs=? -range=% -complete=custom,csv#SortComplete')
     call csv#LocalCmd("PopStdCol",
-        \ ':echo csv#EvalColumn(<q-args>, "csv#SmplStdDevColumn", <line1>,<line2>)',
+        \ ':echo csv#EvalColumn(<q-args>, "csv#PopStdDevColumn", <line1>,<line2>)',
         \ '-nargs=? -range=% -complete=custom,csv#SortComplete')
     call csv#LocalCmd("UnArrangeColumn",
         \':call csv#PrepUnArrangeCol(<line1>, <line2>)',
