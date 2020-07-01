@@ -75,8 +75,8 @@ inoremap jj <ESC>
 inoremap <ESC> ~
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
-map <leader>w :w<CR>
-imap <leader>w jj:w<CR>
+map <leader>w :w<CR>:Neoformat<CR>
+imap <leader>w jj:w<CR>:Neoformat<CR>
 map <leader>f :Neoformat<CR>
 "let g:airline_theme='molokai'
 source $HOME/.config/nvim/themes/airline.vim

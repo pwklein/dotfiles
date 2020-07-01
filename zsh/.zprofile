@@ -3,7 +3,7 @@
 
 export EDITOR="nvim"
 export TERMINAL="alacritty"
-export BROWSER="qutebrowser"
+export BROWSER="firefox"
 export TERMINFO=/usr/lib/terminfo
 export READER="zathura"
 
