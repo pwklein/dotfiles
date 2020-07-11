@@ -49,7 +49,7 @@ let g:jedi#completions_enabled = 0
 " open the go-to function in split, not another buffer
 let g:jedi#use_splits_not_buffers = "right"
 
-call plug#begin('~/.config/nvim/autoload/plugged')
+call plug#begin('~/.local/share/nvim/site/autoload/plugged')
 Plug 'machakann/vim-highlightedyank'
 Plug 'chrisbra/Colorizer'
 Plug 'cjrh/vim-conda'
@@ -79,7 +79,7 @@ map <leader>w :w<CR>:Neoformat<CR>
 imap <leader>w jj:w<CR>:Neoformat<CR>
 map <leader>f :Neoformat<CR>
 "let g:airline_theme='molokai'
-source $HOME/.config/nvim/themes/airline.vim
+"source $HOME/.config/nvim/themes/airline.vim
 " Quickly insert an empty new line without entering insert mode
     nnoremap <Leader>o o<Esc>
     nnoremap <Leader>O O<Esc>
