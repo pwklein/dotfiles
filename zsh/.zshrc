@@ -32,7 +32,6 @@ unset __conda_setup
 
 ###############################################################################
 
-conda config --set changeps1 false
 
 function zle-keymap-select() {
    zle reset-prompt zle -R
