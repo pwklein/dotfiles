@@ -3,6 +3,7 @@ if [[ "$(echo $HOSTNAME)" = "arch" ]]; then
 	feh --bg-max ~/scripts/arch_wallpaper.jpg
 	export WINIT_X11_SCALE_FACTOR=1
 	dunst &
+	xset s off -dpms
 fi
 if [[ "$(echo $HOSTNAME)" = "arch-mac" ]]; then
 	feh --bg-max ~/scripts/arch_mac_wallpaper.jpg
@@ -10,4 +11,4 @@ if [[ "$(echo $HOSTNAME)" = "arch-mac" ]]; then
 	export WINIT_X11_SCALE_FACTOR=1.5
 fi
 picom -b
-exec dwm
+exec i3
