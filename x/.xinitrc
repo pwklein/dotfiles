@@ -1,5 +1,5 @@
 xrdb -merge ~/.Xresources
-if [[ "$(echo $HOSTNAME)" = "arch" ]]; then
+if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	feh --bg-max ~/scripts/arch_wallpaper.jpg
 	export WINIT_X11_SCALE_FACTOR=1
 	dunst &

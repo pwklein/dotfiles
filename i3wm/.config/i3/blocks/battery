@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ "$(echo $HOSTNAME)" = "arch" ]]; then
+if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	exit 0
 fi
 BATTERY=0
