@@ -89,7 +89,7 @@ urxvt.perl-ext-common: default,resize-font
 !--------------------------------------------
 #ifdef	SRVR_arch_acer
 	#define	DPI	80
-#elif	defined	SRVR_arch_mac
+#elif	defined	SRVR_gauss
 	#define	DPI	144
 #endif
 Xft.dpi:	DPI	

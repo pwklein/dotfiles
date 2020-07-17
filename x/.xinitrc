@@ -7,7 +7,7 @@ if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	picom -b
 	exec i3
 fi
-if [[ "$(echo $HOSTNAME)" = "arch-mac" ]]; then
+if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
 	feh --bg-max ~/scripts/arch_mac_wallpaper.jpg
 	sudo modprobe brcmfmac
 	export WINIT_X11_SCALE_FACTOR=1.5
