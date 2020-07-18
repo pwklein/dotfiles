@@ -3,7 +3,7 @@ set $mod Mod4
 
 font pango:Source Code Pro 11
 
-for_window [class="^.*"] border pixel 2, title_format "<b> %class >> %title </b>"
+for_window [class="^.*"] border pixel 6, title_format "<b> %class >> %title </b>"
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -29,6 +29,9 @@ bindsym $mod+Shift+s exec ~/scripts/power_dmenu.sh
 
 # quickmarks 
 bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
+
+# Sync Nextcloud 
+bindsym $mod+c exec ~/scripts/sync-box.sh
 
 # ssh
 bindsym $mod+s exec urxvt -e ~/scripts/ssh_dmenu.sh
