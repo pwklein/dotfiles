@@ -31,7 +31,10 @@ bindsym $mod+Shift+s exec ~/scripts/power_dmenu.sh
 bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
 
 # Sync Nextcloud 
-bindsym $mod+c exec ~/scripts/sync-box.sh
+bindsym $mod+Shift+c exec ~/scripts/sync-box.sh
+
+# Sync with osync 
+bindsym $mod+c exec ~/scripts/osync-run.sh
 
 # ssh
 bindsym $mod+s exec urxvt -e ~/scripts/ssh_dmenu.sh
