@@ -4,6 +4,8 @@ autocmd! bufwritepost init.vim source %
 
 autocmd FileType python map <buffer> <leader>gg :w<CR>:exec '!python' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <leader>gg jj:w<CR>:exec '!python' shellescape(@%, 1)<CR>
+map <leader>gg :w !bash<CR>
+imap <leader>gg :w !bash<CR>
 filetype off
 filetype plugin indent on
 syntax on
