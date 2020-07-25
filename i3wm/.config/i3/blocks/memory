@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "$(free -h | grep Mem | awk '{print $3}')  [$(free -h | grep Mem | awk '{print $7}'l)]"
+echo "$(free -h | grep Mem | awk '{print $3}')
+#[$(free -h | grep Mem | awk '{print $7}'l)]
+"
