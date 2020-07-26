@@ -8,7 +8,7 @@ if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	exec i3
 fi
 if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
-	feh --bg-max ~/scripts/arch_mac_wallpaper.jpg
+	feh --bg-fill ~/scripts/arch_wallpaper.jpg
 	sudo modprobe brcmfmac
 	export WINIT_X11_SCALE_FACTOR=1.5
 	dunst &

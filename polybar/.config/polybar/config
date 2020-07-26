@@ -23,7 +23,7 @@ background-alt = #6615ff00
 ;foreground = ${xrdb:color7:#222}
 foreground = #ffffff
 foreground-alt = #ffffff
-primary = 
+primary = #B3000000
 secondary = #e60053
 alert = #bd2c40
 
