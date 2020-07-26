@@ -25,6 +25,8 @@ floating_modifier $mod
 bindsym $mod+Shift+t exec --no-startup-id urxvt --class=floating_term
 for_window [class="floating_term"] floating enable
 
+#scrot
+bindsym $mod+p exec scrot
 # start a terminal
 bindsym $mod+Return exec $TERMINAL
 # suspend
@@ -194,10 +196,7 @@ bindsym $mod+r mode "resize"
 # set some nice colors      border     background  text
 client.focused              #000000B3 	#15ff0066	#ffffff
 client.unfocused            #000000B3 	#000000B3	#ffffff
-
-
-#client.unfocused            $bg        $bg         $ia
-#client.focused_inactive     $bg        $bg         $ac
+client.focused_inactive            #000000B3 	#000000B3	#ffffff
 #client.urgent               $rd        $rd         $tx
 
 # Start i3bar to display a workspace bar (plus the system information i3status
