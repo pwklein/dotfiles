@@ -35,6 +35,13 @@
 *.color7:       #acada1
 *.color15:      #cfd0c2
 
+! dmenu
+dmenu.font: Source Code Pro
+dmenu.background: #000000
+dmenu.foreground: #ffffff
+dmenu.selbackground: #24a01a
+dmenu.selforeground: #ffffff
+
 ! Rofi
 rofi.font: monospace 10
 rofi.padding: 20

@@ -56,10 +56,6 @@ bindsym $mod+Shift+minus exec sudo macbook-lighter-screen --dec 200
 
 # start dmenu 
 bindsym $mod+d exec dmenu_run\
-    -nb "${COLOR_BACKGROUND:-#151515}" \
-    -nf "${COLOR_DEFAULT:-#aaaaaa}" \
-    -sf "${COLOR_HIGHLIGHT:-#589cc5}" \
-    -sb "#1a1a1a" \
     -i -p "Run application" \
 -c -l 10
 
