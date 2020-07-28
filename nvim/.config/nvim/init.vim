@@ -1,11 +1,17 @@
 let mapleader=" "
+let maplocalleader = ","
 " enable automatic reload after sourcing
 autocmd! bufwritepost init.vim source %
 
-autocmd FileType python map <buffer> <leader>gg :w<CR>:exec '!python' shellescape(@%, 1)<CR>
-autocmd FileType python imap <buffer> <leader>gg jj:w<CR>:exec '!python' shellescape(@%, 1)<CR>
-map <leader>gg :w !bash<CR>
-imap <leader>gg :w !bash<CR>
+autocmd FileType python map <buffer> <leader>c :w<CR>:exec '!python' shellescape(@%, 1)<CR>
+autocmd FileType sh map <leader>c :w !bash<CR>
+autocmd FileType tex setlocal spell spelllang=en_us
+autocmd FileType tex map <leader>c :VimtexCompile<CR>
+autocmd FileType tex map <leader>v :VimtexView<CR>
+autocmd FileType tex map <leader>k :VimtexClean<CR>:VimtexStop<CR>
+autocmd FileType tex map <leader>t :VimtexTocOpen<CR>
+autocmd FileType tex map <leader>tt :VimtexTocToggle<CR>
+
 filetype off
 filetype plugin indent on
 syntax on
@@ -38,8 +44,6 @@ let g:highlightedyank_highlight_duration = 350
 
 let g:python_host_prog = expand('/usr/bin/python2')
 let g:python3_host_prog = expand('/usr/bin/python3')
-" map sort function to a key
-vnoremap <Leader>s :sort<CR>
 
 let g:deoplete#enable_at_startup = 1
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
@@ -66,6 +70,7 @@ Plug 'zchee/deoplete-jedi'
 Plug 'scrooloose/nerdcommenter'
 Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
+Plug 'lervag/vimtex'
 call plug#end()
 
 "remap switching splits to Ctrl-x
@@ -77,11 +82,16 @@ inoremap jj <ESC>
 inoremap <ESC> ~
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
-map <leader>w :w<CR>:Neoformat<CR>
-imap <leader>w jj:w<CR>:Neoformat<CR>
+map <leader>w :w<CR>
 map <leader>f :Neoformat<CR>
-"let g:airline_theme='molokai'
-"source $HOME/.config/nvim/themes/airline.vim
-" Quickly insert an empty new line without entering insert mode
-    nnoremap <Leader>o o<Esc>
-    nnoremap <Leader>O O<Esc>
+" insert an empty new line without entering insert mode
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>
+vnoremap <Leader>s :sort<CR>
+
+" This is new style
+call deoplete#custom#var('omni', 'input_patterns', {
+      \ 'tex': g:vimtex#re#deoplete
+      \})
+let g:vimtex_view_method = 'zathura'
+
