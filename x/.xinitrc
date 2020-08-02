@@ -1,6 +1,8 @@
 xrdb -merge ~/.Xresources
 if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
-	feh --bg-max ~/scripts/arch_wallpaper.jpg
+	xrandr --output DP-2 --primary
+	xrandr --output DVI-D-1 --right-of DP-2 --rotate left
+	feh --bg-max ~/scripts/arch_wallpaper.jpg --bg-fill ~/scripts/arch_wallpaper.jpg
 	export WINIT_X11_SCALE_FACTOR=1
 	dunst &
 	xset s off -dpms
