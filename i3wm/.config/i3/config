@@ -191,8 +191,8 @@ bindsym $mod+r mode "resize"
 
 # set some nice colors      border     background  text
 client.focused              #000000B3 	#15ff0066	#ffffff
-client.unfocused            #000000B3 	#000000B3	#ffffff
-client.focused_inactive            #000000B3 	#000000B3	#ffffff
+client.unfocused            #000000B3 	#263238B3	#ffffff
+client.focused_inactive            #000000B3 	#263238B3	#ffffff
 #client.urgent               $rd        $rd         $tx
 
 # Start i3bar to display a workspace bar (plus the system information i3status
