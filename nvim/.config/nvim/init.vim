@@ -19,7 +19,7 @@ syntax on
 "80 character line and use Q for formating
 set nowrap
 set colorcolumn=80
-highlight ColorColumn ctermbg=238
+highlight ColorColumn ctermbg=none
 " vmap Q gq
 " nmap Q gqap
 
@@ -38,6 +38,7 @@ set splitright
 set foldmethod=indent
 set foldlevel=99
 set encoding=utf-8
+let g:airline_theme='gruvbox'
 
 " set highlight duration time to 1000 ms, i.e., 1 second
 let g:highlightedyank_highlight_duration = 350
@@ -71,6 +72,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
 Plug 'lervag/vimtex'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 "remap switching splits to Ctrl-x
