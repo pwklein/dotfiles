@@ -37,10 +37,10 @@
 
 ! dmenu
 dmenu.font: Source Code Pro
-dmenu.background: #000000
-dmenu.foreground: #ffffff
-dmenu.selbackground: #24a01a
-dmenu.selforeground: #ffffff
+dmenu.background: #1a1a1a
+dmenu.foreground: #ebdbb2
+dmenu.selbackground: #98971a
+dmenu.selforeground: #ebdbb2
 
 ! Rofi
 rofi.font: monospace 10
