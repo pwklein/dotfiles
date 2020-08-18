@@ -53,6 +53,8 @@ bindsym $mod+q kill
 # macbook backlight brightness
 bindsym $mod+Shift+plus exec sudo macbook-lighter-screen --inc 200
 bindsym $mod+Shift+minus exec sudo macbook-lighter-screen --dec 200
+bindsym $mod+Mod1+plus exec xbacklight -inc 20
+bindsym $mod+Mod1+minus exec xbacklight -dec 20
 
 # start dmenu 
 bindsym $mod+d exec dmenu_run\
