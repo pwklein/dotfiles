@@ -17,3 +17,10 @@ if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
 	picom -b
 	exec i3
 fi
+if [[ "$(echo $HOSTNAME)" = "heisenberg" ]]; then
+	feh --bg-fill ~/scripts/arch_wallpaper.jpg
+	export WINIT_X11_SCALE_FACTOR=0.8
+	dunst &
+	picom -b
+	exec i3
+fi

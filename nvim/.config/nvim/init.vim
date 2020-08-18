@@ -2,6 +2,7 @@ let mapleader=" "
 let maplocalleader = ","
 " enable automatic reload after sourcing
 autocmd! bufwritepost init.vim source %
+let g:tex_flavor = 'latex'
 
 autocmd FileType python map <buffer> <leader>c :w<CR>:exec '!python' shellescape(@%, 1)<CR>
 autocmd FileType sh map <leader>c :w !bash<CR>

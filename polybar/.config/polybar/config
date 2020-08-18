@@ -89,7 +89,7 @@ format-prefix-foreground = ${colors.foreground-alt}
 
 [module/storage]
 type = custom/script
-exec = du -hs | awk '{print $1}'
+exec = sudo du -hs | awk '{print $1}'
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
