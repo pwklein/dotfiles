@@ -76,7 +76,7 @@ URxvt*scrollBar_right: false
 URxvt*internalBorder: 0
 URxvt*externalBorder: 0
 URxvt*letterSpace: -1
-URxvt.font: xft:Source Code Pro:size=12
+URxvt.font: xft:Source Code Pro:size=15
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 URxvt.urlLauncher: exo-open
@@ -88,7 +88,7 @@ URxvt.tabbed.tabbar-bg: 16
 URxvt.tabbed.tab-fg: 15
 URxvt.tabbed.tab-bg: 4
 URxvt*buffered: false
-URxvt*transparent: true
+URxvt*transparent: false
 URxvt*shading: 25
 urxvt.perl-ext-common: default,resize-font
 !--------------------------------------------

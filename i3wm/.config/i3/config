@@ -25,6 +25,9 @@ floating_modifier $mod
 bindsym $mod+Shift+t exec --no-startup-id urxvt --class=floating_term
 for_window [class="floating_term"] floating enable
 
+#rsync for paper
+bindsym $mod+y exec exec rsync -az /home/pwk/int_bilayer/data/figures_paper/ /home/pwk/int_bilayer/paper/figures/
+
 #scrot
 bindsym $mod+p exec scrot --delay 5
 # start a terminal
@@ -86,7 +89,7 @@ bindsym $mod+Shift+l move right
 
 # toggle workspaces
 bindsym $mod+Tab workspace next
-bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+a workspace prev
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left

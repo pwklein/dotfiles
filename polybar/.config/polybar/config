@@ -83,14 +83,14 @@ cursor-scroll = ns-resize
 [module/ram]
 type = custom/script
 exec = ~/.config/i3/blocks/memory
-interval = 2
+interval = 10
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 
 [module/storage]
 type = custom/script
 exec = sudo du -hs | awk '{print $1}'
-interval = 2
+interval = 60
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 
@@ -277,7 +277,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 30
 
 date = " %b-%d  "
 date-alt =

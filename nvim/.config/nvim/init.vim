@@ -18,7 +18,7 @@ filetype plugin indent on
 syntax on
 
 "80 character line and use Q for formating
-set nowrap
+"set nowrap
 set colorcolumn=80
 highlight ColorColumn ctermbg=none
 " vmap Q gq
