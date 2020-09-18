@@ -6,7 +6,6 @@ if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	export WINIT_X11_SCALE_FACTOR=1
 	dunst &
 	xset s off -dpms
-	picom -b
 	exec i3
 fi
 if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
