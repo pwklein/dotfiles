@@ -58,7 +58,7 @@ font-3 = Font Awesome 5 Free:pixelsize=12;2
 font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
 font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
-modules-left = cpu temperature ram storage battery
+modules-left = cpu temp ram storage battery
 modules-center = i3 
 modules-right = pulseaudio wlan eth  date 
 
@@ -92,6 +92,13 @@ type = custom/script
 exec = sudo du -hs | awk '{print $1}'
 interval = 60
 format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+
+[module/temp]
+type = custom/script
+exec = /home/pwk/dotfiles/i3wm/.config/i3/blocks/temperature
+interval = 5
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 
 

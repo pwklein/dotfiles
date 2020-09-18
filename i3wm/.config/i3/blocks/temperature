@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
+if [[ "$(echo $HOSTNAME)" = "heisenberg" ]]; then
 		TEMP_DEVICE="${BLOCK_INSTANCE:-Core}"
 		TEMP_OUTPUT=$(sensors | grep "${TEMP_DEVICE}")
 
