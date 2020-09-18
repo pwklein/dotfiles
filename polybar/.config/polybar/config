@@ -83,7 +83,7 @@ cursor-scroll = ns-resize
 [module/ram]
 type = custom/script
 exec = ~/.config/i3/blocks/memory
-interval = 10
+interval = 20
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 
@@ -239,7 +239,7 @@ label = %gb_used%
 [module/wlan]
 type = internal/network
 interface = wlp3s0
-interval = 3.0
+interval = 10
 
 format-connected =  <label-connected>
 format-connected-underline = 
@@ -262,7 +262,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 [module/eth]
 type = internal/network
 interface = net0
-interval = 3.0
+interval = 10
 
 format-connected-underline = #55aa55
 format-connected-prefix = " "
@@ -277,7 +277,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 30
+interval = 60
 
 date = " %b-%d  "
 date-alt =
@@ -351,6 +351,7 @@ type = internal/battery
 battery = BAT0
 adapter = ADP1
 full-at = 98
+poll-interval=60
 
 format-charging =  <label-charging>
 format-charging-underline = 
@@ -383,6 +384,7 @@ animation-discharging-framerate = 750
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 70
+interval=5
 
 format =  <label>
 format-underline = 
