@@ -1,4 +1,4 @@
-set highlight-transparency 0
+set highlight-transparency 0.2
 set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 5
