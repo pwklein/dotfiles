@@ -69,6 +69,8 @@ hide_edge_borders smart
 bindsym $mod+b exec --no-startup-id $HOME/.config/polybar/launch.sh
 bindsym $mod+Shift+b exec killall -q polybar
 
+bindsym $mod+u fullscreen toggle global
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down

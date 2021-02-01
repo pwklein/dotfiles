@@ -1,12 +1,13 @@
 xrdb -merge ~/.Xresources
 if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
-	xrandr --output DP-2 --primary
-	xrandr --output DVI-D-1 --right-of DP-2 --rotate left
+	xrandr --output DP-3 --primary
+	xrandr --output DP-2 --right-of DP-3
 	feh --bg-max ~/scripts/arch_wallpaper.jpg --bg-fill ~/scripts/arch_wallpaper.jpg
 	export WINIT_X11_SCALE_FACTOR=1
 	dunst &
 	xset s off -dpms
 	exec i3
+	blueberry-tray
 fi
 if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
 	feh --bg-fill ~/scripts/arch_wallpaper.jpg
