@@ -98,3 +98,4 @@ call deoplete#custom#var('omni', 'input_patterns', {
       \})
 let g:vimtex_view_method = 'zathura'
 
+
