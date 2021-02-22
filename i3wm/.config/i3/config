@@ -48,7 +48,7 @@ bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
 # ranger
-bindsym $mod+g exec urxvt -e ranger
+bindsym $mod+g exec thunar
 # browser
 bindsym $mod+Shift+Return exec $BROWSER
 # kill focused window
