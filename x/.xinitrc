@@ -7,7 +7,6 @@ if [[ "$(echo $HOSTNAME)" = "faust" ]]; then
 	dunst &
 	xset s off -dpms
 	exec i3
-	blueberry-tray
 fi
 if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
 	feh --bg-fill ~/scripts/arch_wallpaper.jpg
