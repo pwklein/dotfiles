@@ -18,7 +18,7 @@ if [[ "$(echo $HOSTNAME)" = "gauss" ]]; then
 	exec i3
 fi
 if [[ "$(echo $HOSTNAME)" = "heisenberg" ]]; then
-	feh --bg-fill ~/scripts/arch_wallpaper.jpg
+	feh --bg-fill ~/scripts/arch_wallpaper.jpg &
 	export WINIT_X11_SCALE_FACTOR=1.0
 	dunst &
 	exec i3
