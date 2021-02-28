@@ -31,7 +31,7 @@ for_window [class="floating_term"] floating enable
 bindsym $mod+y exec exec rsync -az /home/pwk/int_bilayer/data/figures_paper/ /home/pwk/int_bilayer/paper/figures/
 
 #scrot
-bindsym $mod+p exec scrot --delay 5
+bindsym $mod+p exec scrot -sf
 # start a terminal
 bindsym $mod+Return exec $TERMINAL
 # suspend
@@ -49,7 +49,7 @@ bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 # jupyter
 bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
-# ranger
+# file manager
 bindsym $mod+g exec thunar
 # browser
 bindsym $mod+Shift+Return exec $BROWSER
