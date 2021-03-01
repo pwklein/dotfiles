@@ -28,7 +28,7 @@ bindsym $mod+Shift+t exec --no-startup-id urxvt --class=floating_term
 for_window [class="floating_term"] floating enable
 
 #rsync for paper
-bindsym $mod+y exec exec rsync -az /home/pwk/int_bilayer/data/figures_paper/ /home/pwk/int_bilayer/paper/figures/
+#bindsym $mod+y exec exec rsync -az /home/pwk/int_bilayer/data/figures_paper/ /home/pwk/int_bilayer/paper/figures/
 
 #scrot
 bindsym $mod+p exec scrot -sf
@@ -50,14 +50,15 @@ bindsym $mod+z exec ~/scripts/zathura_dmenu.sh
 bindsym $mod+n exec ~/scripts/jupyter_dmenu.sh
 bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
 # file manager
-bindsym $mod+g exec thunar
+bindsym $mod+g exec ~/scripts/dmenu_file_manager.sh
+#bindsym $mod+g exec thunar
 # browser
 bindsym $mod+Shift+Return exec $BROWSER
 # kill focused window
 bindsym $mod+q kill
 # macbook backlight brightness
-bindsym $mod+Shift+plus exec sudo macbook-lighter-screen --inc 200
-bindsym $mod+Shift+minus exec sudo macbook-lighter-screen --dec 200
+#bindsym $mod+Shift+plus exec sudo macbook-lighter-screen --inc 200
+#bindsym $mod+Shift+minus exec sudo macbook-lighter-screen --dec 200
 bindsym $mod+Mod1+plus exec xbacklight -inc 20
 bindsym $mod+Mod1+minus exec xbacklight -dec 20
 
@@ -93,7 +94,7 @@ bindsym $mod+Shift+l move right
 
 # toggle workspaces
 bindsym $mod+Tab workspace next
-bindsym $mod+a workspace prev
+#bindsym $mod+a workspace prev
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
