@@ -31,13 +31,13 @@ for_window [class="floating_term"] floating enable
 #bindsym $mod+y exec exec rsync -az /home/pwk/int_bilayer/data/figures_paper/ /home/pwk/int_bilayer/paper/figures/
 
 #scrot
-bindsym $mod+p exec scrot -sf
+bindsym $mod+p exec scrot
 # start a terminal
 bindsym $mod+Return exec $TERMINAL
 # suspend
 bindsym $mod+Shift+s exec ~/scripts/power_dmenu.sh
 # quickmarks 
-bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
+#bindsym $mod+m exec ~/scripts/quickmarks_dmenu.sh
 ## Sync Nextcloud 
 #bindsym $mod+Shift+c exec ~/scripts/sync-box.sh
 ## Sync with osync 
@@ -53,7 +53,7 @@ bindsym $mod+Shift+n exec ~/scripts/jupyter_dmenu_kill.sh
 bindsym $mod+g exec ~/scripts/dmenu_file_manager.sh
 #bindsym $mod+g exec thunar
 # browser
-bindsym $mod+Shift+Return exec $BROWSER
+bindsym $mod+Shift+Return exec google-chrome-stable
 # kill focused window
 bindsym $mod+q kill
 # macbook backlight brightness
